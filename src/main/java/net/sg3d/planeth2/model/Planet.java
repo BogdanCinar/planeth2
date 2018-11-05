@@ -8,11 +8,15 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "planet")
 public class Planet {
+
     @Id
     @GeneratedValue
     private int id;
+
     private String name;
+
     private Double gravity;
+
     private Double radius;
 
     public Planet() {

@@ -1,7 +1,7 @@
 package net.sg3d.planeth2.service;
 
-import net.sg3d.planeth2.repository.PlanetRepository;
 import net.sg3d.planeth2.model.Planet;
+import net.sg3d.planeth2.repository.PlanetRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -10,8 +10,10 @@ import java.util.List;
 
 @Service
 public class PlanetService {
+
     @Autowired
     PlanetRepository planetRepository;
+
     static final Double G_CONSTANT = 6.6726d;
 
     public List<Planet> getAllPlanets() {

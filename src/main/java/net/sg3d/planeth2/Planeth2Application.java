@@ -8,5 +8,6 @@ public class Planeth2Application {
 
     public static void main(String[] args) {
         SpringApplication.run(Planeth2Application.class, args);
+
     }
 }
