@@ -1,6 +1,6 @@
 package net.sg3d.planeth2.service;
 
-import net.sg3d.planeth2.Repository.PlanetRepository;
+import net.sg3d.planeth2.repository.PlanetRepository;
 import net.sg3d.planeth2.model.Planet;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
